@@ -33,7 +33,8 @@ document.addEventListener("DOMContentLoaded", () => {
 		const emptyCells = squares.filter((cell) => cell.innerHTML == 0);
 		if (emptyCells.length > 0) {
 			const randomCell = emptyCells[Math.floor(Math.random() * emptyCells.length)];
-			randomCell.innerHTML = 2;
+			const randomNumber = Math.random() < 0.5 ? 2 : 4;
+			randomCell.innerHTML = randomNumber;
 			updateCells();
 		}
 	}
