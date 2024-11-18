@@ -56,19 +56,27 @@ body {
 }
 
 .grid-cell {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  padding: 1.5rem;
-  font-size: 1.5rem;
-  background-color: #847979;
-  color: #fff;
-  box-sizing: border-box;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	padding: 1.5rem;
+	font-size: 1.5rem;
+	background-color: #847979;
+	color: #fff;
+	box-sizing: border-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	border-radius: 0.5rem;
+	transition: background-color 0.2s;
+  }
+
+  .cell-0 {
+	background-color: #847979;
+	color: #fff;
+  }
 
   .cell-2 {
 	background-color: #c3c3c3;
