@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-	// Variables
 	const gridDisplay = document.querySelector(".grid-container");
 	const scoreDisplay = document.getElementById("score");
 	const width = 4;
